@@ -1,0 +1,114 @@
+.nav{
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 4px 10px rgb(91, 76, 76);
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.top-nav{
+    width: 100%;
+    height: 75%;
+    background-color: #233142; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+.bottom-nav{
+    width: 100%;
+    height: 25%;
+    background-color: #455d7a; 
+}
+
+.top-nav .logo{
+    color: white ;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.top-nav .search-box{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+        overflow: hidden;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+.top-nav .search-box input{
+    height: 100%;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+        cursor: pointer;
+        padding-left: 10px;
+
+    
+    
+    
+}
+
+.search-box  button{
+    height: 100%;
+    width: 10%;
+    font-size: 25px;
+        border: none;
+        background-color: white;
+        padding-top: 10px;
+        color: black;
+        padding-top: 13px;
+}
+
+.card-box{
+    position: relative;
+    color: white;
+        cursor: pointer;
+        padding-right: 10px;
+
+}
+.card-box avg{
+
+    font-size: 35px;
+}
+.card-box span{
+    position:absolute;
+    font-size: 18px;
+    top: -10px;
+}
+.bottom-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 29px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.bottom-nav li{
+        cursor: pointer;
+
+}
+
+@media (max-width:750px) {
+ .search-box input {
+       display: none;
+
+
+    }
+    .search-box button{
+        display: none;
+    }
+    .top-nav .search-box {
+        display: none;
+    }
+}
